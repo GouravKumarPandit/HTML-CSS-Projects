@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(210deg, rgba(0,0,0,0.1) 50%, rgba(255,255,255,0.1) 50%),url('1\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: hidden;
+}
+.navBar{
+    height: 90px;
+    display: flex;
+    margin-left: 80px;
+}
+.logo img{
+    width: 120px;
+    height: 85px;
+}
+.link{
+    width: 95%;
+    margin-left: 10px;
+    transition: 1s linear;
+}
+.link .fa-solid{
+    color: white;
+    display: none;
+}
+
+.link ul{ 
+    float: left;
+    list-style-type: none;
+}
+.link ul li{
+    
+    display: inline;
+    cursor: pointer;
+    line-height: 90px;
+    margin: 0 25px;
+}
+.link ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.link ul li a::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    border-bottom: 2px solid yellow;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: linear; 
+}
+.link ul li a:hover::before{
+    width: 100%;
+}
+.btn1{
+    float: right;
+    margin: 30px 0;
+    margin-right: 20px;
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+#check{
+    display: none;
+}
+.navBar .fa-bars{
+    display: none;
+}
+#check:checked ~ .link{
+    right: 0%;
+    
+}
+.body{
+    width: 40%;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.thought h1{
+    color: white;
+    line-height: 40px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+.thought span{
+    color: yellow;
+}
+.body .btn2{
+    padding: 5px 10px;
+    margin: 20px 0;
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
+}
+.leftSide{
+    background-color: black;
+    width: 60px;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.leftSide .twoIcon a{
+    text-decoration: none;
+}
+.twoIcon i{
+    color: white;
+    font-size: 22px;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+}
+.fourIcon{
+    background-color: yellow;
+    opacity: 0.9;
+    width: 57px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.fourIcon a{
+    text-decoration: none;
+}
+.fourIcon i{
+    font-size: 20px;
+    padding: 12px 0;
+    margin: 8px;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    font-weight: bold;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: orangered;
+}
+.fa-twitter{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-linkedin{
+    color: blue;
+}
+.rightBottom{
+    background-color: rgba(255, 255, 0,0.3);
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 110px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.noti1{
+    width: 45%;
+    height: 100%;
+}
+.noti1 p{
+    color: black;
+    font-weight: bold;
+} 
+.noti2{
+    width: 45%;
+    height: 100%;
+}
+.noti2 video{
+    width: 155px;
+}
+
+@media (max-width: 800px){
+    .link{
+        width: 150px;
+        height: 100vh;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        z-index: 1;
+        background-image: linear-gradient(rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 50%);
+    }
+    .link ul li{
+        display: block;
+        padding: 3px 10px;
+        margin: 10px;
+        line-height: 30px;
+    }
+    .link .btn1{
+        float: none;
+        margin: 22px;
+    }
+    .link .fa-solid{
+        color: yellow;
+        display: inline-block;
+        margin: 22px;
+    }
+    .link .fa-solid:hover{
+        transform: scale(1.3,1.3);
+    }
+    .navBar .fa-bars{
+        color: white;
+        display: block;
+        line-height: 90px;
+        font-size: 27px; 
+        position: absolute;
+        right: 3%;
+    }
+    @media (max-width: 430px){
+        .rightBottom{
+            display: inline-block;
+            width: 60%;
+            height: 150px;
+        }
+        .noti1{
+            width: 100%;
+            height: 50%;
+        }
+        .noti2{
+            width: 100%;
+            height: 50%;
+        }
+    }
+}

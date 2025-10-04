@@ -1,0 +1,162 @@
+*{margin: 0; padding: 0;}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left,white 80%, aqua 20%);
+   
+}
+
+.navsection{
+    width: 100%;
+    height: 20vh;
+    background-image: linear-gradient(to top,white 80%,aqua 20% );
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.sibar{
+    background-image: linear-gradient(to top,aqua 50%,white 50% );
+    width: 30%;
+    height: 5vh;
+    padding-left: 40px;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+.sibar h1{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: blue;
+    animation: moving;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate
+}
+@keyframes moving {
+ from{ padding-left: 200px;}    
+    to{ padding-right: 200px;}
+}
+
+.navbar{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 15PX;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    position: relative;
+    text-transform: uppercase;
+}
+.navbar a::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0;
+    height: 1px;
+    border-bottom: 1px solid purple;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+.navbar a:hover{
+    color: purple;
+    transform: scale(1.1,1.1);
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftside h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: blue;
+    position: relative;
+}
+.leftside h3::before{
+    content: "";
+    width: 175px;
+    height: 2px;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    border-bottom: 2px solid blue;
+}
+.leftside h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    word-spacing: 5px;
+    color: blue;
+}
+.leftside h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    word-spacing: 5px;
+    color: blue;
+}
+.rightside img{
+    width:"400px";
+    height: auto;
+}
+.rightside{
+    border-radius:84% 16% 53% 47% / 33% 37% 63% 67% ;
+    background-color: aqua;
+}
+.leftside .btn1 {
+    color: blue;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    word-spacing: 5px ;
+    text-transform: uppercase;
+    border: 1px solid black;
+    background-image: linear-gradient(aqua 50%,white 50%);
+    box-shadow: 5px 5px 10px black;
+    
+}
+.btn2{
+    color: blue;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    word-spacing: 5px ;
+    text-transform: uppercase;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+
+.leftside .btn1:hover{
+    transform: scale(1.1,1.1);
+}
+.leftside .btn2:hover{
+    transform: scale(1.1,1.1);
+}
+ .navbar a{
+    color: blue;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    word-spacing: 5px ;
+    text-transform: uppercase;
+    
+    background-image: linear-gradient(white 50%,aqua 50%);
+ }

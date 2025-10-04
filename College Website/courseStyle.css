@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(21, 252, 0, 0.4),rgba(255, 250, 250, 0),rgba(21, 252, 0, 0.4));
+}
+
+/* <---------------------------------------------------> */
+
+.course{
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.second{
+    border-bottom: 2px dashed orangered;
+    border-radius: 30px;
+    width: 100vw;
+    height: auto;
+}
+.courWeOff{
+    border-bottom: 2px solid black;
+    position: relative;
+    width: 300px;   
+    margin: 50px auto;
+    border-radius: 10px;
+    background-image: linear-gradient(210deg,rgba(0,0,0,0.4)50%,rgba(26, 206, 20, 0.589)50%);
+}
+.courWeOff h2{
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+}
+.courseLine{
+    width: 235px;
+    position: absolute;
+    left: 11%;
+    border: 1px solid black;
+}
+.courWeOff p{
+    margin-top: 10px;
+    text-align: center;
+}
+.allCourse{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(213deg,rgba(0,0,0,0.4)50%,rgba(26, 206, 20, 0.589)50%);
+}
+.allCourse h1{
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+.allCourse P{
+    margin-top: 10px;
+    color: white;
+}
+.allCourse button{
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 1px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+.allCourse button a{
+    color: white;
+    text-decoration: none;
+}
+.allCourse:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 10px black;
+}
+
+/* <---------------------------------------------------> */
+.courseInter{
+    border-bottom: 2px dashed orangered;
+    border-radius: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.courseInter p{
+    column-count: 2;
+    color: black;
+    column-rule: 1px solid black;
+    text-transform: capitalize;
+    font-size: 22px;
+    padding-left: 10px;
+    text-align: left;
+}
+.science{
+    width: 300px;
+    height: 220px;
+}
+.commerce{
+    width: 300px;
+    height: 230px;
+}
+.arts{
+    width: 300px;
+    height: 230px;
+}
+
+/* <---------------------------------------------------> */
+
+.courseGrad{
+    /* border: 1px solid red; */
+    border-bottom: 2px dashed orangered;
+    border-radius: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ug{
+    width: 450px;
+    height: 460px;
+}
+.ug ul{
+    padding: 15px;
+}
+.ug ul li{
+    text-align: left;
+    font-size: 17px;
+}
+
+.ugSci{
+    width: 350px;
+    height: 460px;
+}
+.ugSci ul{
+    padding: 15px;
+}
+.ugSci ul li{
+    text-align: left;
+    font-size: 17px;
+}
+
+.ugBtech{
+    width: 350px;
+    height: 460px;
+}
+.ugBtech ul{
+    padding: 15px;
+}
+.ugBtech ul li{
+    text-align: left;
+    font-size: 17px;
+}
+
+/* <---------------------------------------------------> */
+
+.coursePost{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pgArt{
+    width: 450px;
+    height: 360px;
+}
+.pgArt ul{
+    padding: 15px;
+}
+.pgArt ul li{
+    text-align: left;
+    font-size: 17px;
+}
+
+.pgSci{
+    width: 350px;
+    height: 400px;
+}
+.pgSci ul{
+    padding: 15px;
+}
+.pgSci ul li{
+    text-align: left;
+    font-size: 17px;
+}
+
+.pgCom{
+    width: 350px;
+    height: 420px;
+}
+.pgCom ul{
+    padding: 15px;
+}
+.pgCom ul li{
+    text-align: left;
+    font-size: 17px;
+}
+
+/* <---------------------------------------------------> */
+
+.footer{
+    background-color: black;
+    width: 100vw;
+    height: 30%;
+}
+.footer p{
+    color: whitesmoke;
+    padding: 0 23%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}

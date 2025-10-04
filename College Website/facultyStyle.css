@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(21, 252, 0, 0.4),rgba(255, 250, 250, 0),rgba(21, 252, 0, 0.4));
+}
+
+/* <---------------------------------------------------> */
+
+.prin{
+    border-bottom: 1px solid black;
+    width: 100px;
+    margin: auto;
+    margin-top: 50px;
+}
+.principal{
+    width: 100vw;
+    height: auto;
+    margin-top: 30px;
+    border-bottom: 2px dashed red;
+    border-radius: 30px;
+}
+.principalDiv{
+    border: 1px solid green;
+    width: 230px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.principalDiv img{
+    display: block;
+    width: 130px;
+    margin: auto;
+}
+.principalDiv h2{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.principalDiv p{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.coOrd{
+    border-bottom: 1px solid black;
+    width: 150px;
+    margin: auto;
+    margin-top: 50px;
+}
+.coOrdinate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.coOrdinate{
+    margin-top: 0px;
+}
+.coOrdinate div{
+    margin-top: 50px;
+}
+
+.interHead{
+    border-bottom: 1px solid black;
+    width: 220px;
+    margin: auto;
+    margin-top: 50px;
+}
+.inter{
+    margin-top: 0px;
+}
+.inter div{
+    margin-top: 50px;
+}
+.graduation{
+    border-bottom: 1px solid black;
+    width: 210px;
+    margin: auto;
+    margin-top: 50px;
+}
+.postGraduation{
+    border-bottom: 1px solid black;
+    width: 260px;
+    margin: auto;
+    margin-top: 50px;
+}
+.post{
+    margin-bottom: 50px;
+}
+.principalDiv:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 2px 2px 15px 5px black;
+}
+
+.footer{
+    border: 1px solid black;
+    background-color: black;
+    width: 100vw;
+    height: 30%;
+}
+.footer p{
+    color: whitesmoke;
+    padding: 0 23%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}

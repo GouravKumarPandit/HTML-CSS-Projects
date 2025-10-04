@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(21, 252, 0, 0.4),rgba(255, 250, 250, 0),rgba(21, 252, 0, 0.4));
+}
+
+/* <---------------------------------------------------> */
+
+.about{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.about img{
+    width: 500px;
+    float: left;
+    margin-right: 30px;
+}
+.about p{
+    font-size: 17px;
+}
+span{
+    color: red;
+    font-size: 25px;
+}
+.downP{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.downP p{
+    font-size: 17px;
+    line-height: 20px;
+}
+.principalDiv{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.principalDiv img{
+    width: 150px;
+    float: left;
+    margin: 10px 0;
+}
+.principalDiv h2{
+    padding: 30px;
+}
+.principalDiv p{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+/* <---------------------------------------------------> */
+
+.footer{
+    border: 1px solid black;
+    background-color: black;
+    width: 100vw;
+    height: 30%;
+}
+.footer p{
+    color: whitesmoke;
+    padding: 0 23%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}

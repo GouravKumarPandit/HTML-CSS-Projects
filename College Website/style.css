@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.first{
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(43, 255, 0, 0.2),rgba(43, 255, 0, 0.4)), url('education1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    /* position: relative; */
+}
+.admin{
+    /* border: 1px solid orange; */
+    width: 100vw;
+    height: 60px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    overflow: visible;
+    /* background-color: white; */
+    /* opacity: 0.8; */
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(248, 245, 245, 0.6));
+}
+img{
+    /* border: 1px solid black; */
+    width: 70px;
+}
+label{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+nav .ul{
+    /* border: 1px solid black; */
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+nav .ul li{
+    background-color: white;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid green;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.admin .ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.insideAdmin,.insideAcadmic{
+    display: none;
+}
+
+.admin ul li:hover .insideAdmin{
+    display: block;
+    position: absolute;
+}
+.admin ul li:hover .insideAdmin ul li{
+    /* border: 1px solid black; */
+    display: block;
+    margin: 8px 0;
+}
+.admin ul li:hover .insideAcadmic{
+    display: block;
+    position: absolute;
+}
+.admin ul li:hover .insideAcadmic ul li{
+    display: block;
+    margin: 8px 0;
+}
+.fa-angle-down{
+    margin-right: 5px;
+    color: green; 
+}
+
+/* <---------------------------------------------------> */
+
+.firstInside{
+    /* border: 1px solid orangered; */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    border-radius: 10px;
+    margin: 30vh auto;
+    width: 600px;
+}
+.firstInside h1{
+    font-size: 40px;
+    word-spacing: 1px;
+    text-align: center;
+    color: white;
+}
+.firstInside p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+.firstInside button{
+    width: 180px;
+    height: 40px;
+    margin:  0 33%;
+    margin-top: 5%;
+    background-color: white;
+    border-bottom: 1px solid green;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.firstInside button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: green;
+}
+.socialLogo{
+    /* border: 1px solid black; */
+    background-color: rgba(255,255,255,0.8);
+    width: 40px;
+    position: absolute;
+    left: 0%;
+    top: 30%;
+}
+.fa-brands{
+    /* border: 1px solid black; */
+    font-size: 30px;
+    padding: 2px;
+    margin: 2px;
+}
+.fa-brands:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 2px 2px 5px black;
+}
+.fa-instagram{
+    color: #fb3958;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-twitter{
+    color: #1d9bf0;
+}
+.fa-linkedin{
+    color: #0a66c2;
+}
+.fa-telegram{
+    color: #1d9bf0;
+}
+
+/* <---------------------------------------------------> */
+
+.main{
+    background-image: linear-gradient(whitesmoke,rgba(0,255,0,0.4),whitesmoke);
+}
+.second{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: auto;
+}
+.courWeOff{
+    border-bottom: 2px solid black;
+    position: relative;
+    width: 300px;   
+    margin: 50px auto;
+    border-radius: 10px;
+    background-image: linear-gradient(210deg,rgba(0,0,0,0.4)50%,rgba(26, 206, 20, 0.589)50%);
+}
+.courWeOff h2{
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+}
+.courseLine{
+    width: 235px;
+    position: absolute;
+    left: 11%;
+    border: 1px solid black;
+}
+.courWeOff p{
+    margin-top: 10px;
+    text-align: center;
+}
+.course{
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.allCourse{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(213deg,rgba(0,0,0,0.4)50%,rgba(26, 206, 20, 0.589)50%);
+}
+.allCourse h1{
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+.allCourse P{
+    margin-top: 10px;
+    color: white;
+}
+.allCourse button{
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 1px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+.allCourse button a{
+    color: white;
+
+}
+.allCourse:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 10px black;
+}
+
+/* <---------------------------------------------------> */
+
+.ourFacilities{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: auto;
+    margin-top: 30px;
+}
+.ourFaci{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+    position: relative;
+}
+.ourFaci h2{
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+}
+.facilityLine{
+    width: 315px;
+    position: absolute;
+    /* left: 10%; */
+    border: 1px solid green;
+    border-radius: 30px;
+}
+.images{
+    /* border: 1px solid black; */
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.imageDiv{
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+    width: 400px;
+    margin: 30px 0;
+    border-radius: 10px;
+    transition: 5s;
+}
+.images img{
+    width: 400px;
+    height: 300px;
+}
+.imageDiv h2{
+    text-align: center;
+    color: black;
+}
+.imageDiv:hover{
+    /* transform: scale(1.1,1.1); */
+    transform: rotateY(360deg);
+    box-shadow: 5px 5px 10px black;
+}
+.imageBtn{
+    width: 180px;
+    word-spacing: 1px; 
+    height: 40px;
+    font-weight: bold;
+    margin:  0 40%;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.8);
+    border-bottom: 1px solid green;
+    border-radius: 10px;
+    color: white;
+}
+
+/* <---------------------------------------------------> */
+
+.onlineCourse{
+    border: 1px solid white;
+    width: 60%;
+    height: 40vh;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(255,255,255,0.1)),url('online.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.onlineCourse p{
+    margin-top: 40px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+.onlineCourse .btn{
+    border: 1px solid black;
+    width: 130px;
+    height: 35px;
+    font-size: 15px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.onlineCourse .btn,a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* <---------------------------------------------------> */
+
+.studentView{
+    /* border: 1px solid black; */
+    border-bottom: 2px solid orangered;
+    border-radius: 20px;
+    width: 280px;
+    padding: 0 10px;
+    margin: 30px auto;
+    font-size: 25px;
+}
+.rating{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.principalDiv{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 450px;
+}
+.principalDiv img{
+    width: 100px;
+    float: left;
+    margin: 10px 0;
+}
+.principalDiv h2{
+    padding: 20px;
+}
+.principalDiv p{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.fa-star{
+    color: orangered;
+}
+.fa-star-half{
+    color: orangered;
+}
+.star{
+    width: 120px;
+    margin: 0 115px;
+    margin-top: 10px;
+}
+
+/* <---------------------------------------------------> */
+
+.footer{
+    border: 1px solid black;
+    background-color: black;
+    width: 100vw;
+    height: 30%;
+}
+.footer p{
+    color: whitesmoke;
+    padding: 0 23%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}

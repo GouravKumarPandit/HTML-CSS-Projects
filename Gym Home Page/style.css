@@ -1,0 +1,191 @@
+*{ padding: 0px; margin: 0px; }
+body{
+    background-image: linear-gradient(135deg,rgba(255,255,255,0.5) 50%,rgba(0,0,0,0.1) 50%), url('Img/1 (8).jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.header{
+    width: 100vw;
+    height: 15vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+} 
+.logo{
+    width: 10%;
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+}
+img{
+    width: 100px;
+}
+.imgHead{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: aqua;
+}
+.nav{
+    box-sizing: border-box;
+    width: 55%;
+}
+.navUl {
+    display: flex;
+    width: 80%;
+    margin: 32px auto;
+    justify-content: space-around;   
+}
+.navUl li{
+    box-sizing: border-box;
+    border-left: 2px inset aqua;
+    border-bottom: 1px inset aqua;
+    margin: auto;
+    background-color: rgba(0, 0, 27,0.5);
+    list-style-type: none;
+    padding: 2px 20px;
+}
+.navA{
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+}
+.search{
+    width: 25%;
+    box-sizing: border-box;
+}
+.srch{
+    border-top: 1px solid rgb(0, 0, 27);
+    border-right: 1px solid rgb(0, 0, 27);
+    border-left: 2px inset aqua;
+    border-bottom: 1px inset aqua;
+    background-color: rgb(0, 0, 27);
+    margin: 32px 0px;
+    width: 65%;
+    height: 25px;
+    color: coral;
+}
+.btn{
+    border: 1px solid aqua;
+    width: 20%;
+    height: 25px;
+    margin: 5px;
+    color: aqua;
+    background-color: rgb(0, 0, 27);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 20px;
+}
+.leftside{
+    box-sizing: border-box;
+    width: 35%;
+    height: 87%;
+    border-right: 3px solid aqua;
+    border-bottom: 3px solid aqua;
+    border-radius: 10px;
+}
+.leftside p{
+    text-transform: uppercase;
+    font-size: 65px;
+    color: rgb(0, 0, 27);
+    letter-spacing: 1px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.leftbtn{
+    border-bottom: 3px solid aqua;
+    border-top: 3px solid aqua;
+    border-radius: 10px;
+    background-color:rgb(0, 0, 27);
+    color: aqua;
+    letter-spacing: 1px;
+    width: 40%;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.rightside{
+    box-sizing: border-box;
+    width: 35%;
+    height: 87%;
+    border-left: 3px solid aqua;
+    border-bottom: 3px solid aqua;
+    border-radius: 10px;
+}
+input::placeholder{
+    padding: 1% 2%;
+    color:papayawhip;
+}
+.rightside input::placeholder{
+    padding: 1% 2%;
+    color:papayawhip;
+}
+.Book{
+    box-sizing: border-box;
+    border-bottom: 3px solid aqua;
+    border-radius: 10px;
+    width: 50%;
+    color: aqua;
+    padding: 0px 25px;
+    margin: auto;
+}
+.form1{
+    border-top: 1px solid rgb(0, 0, 27);
+    border-right: 1px solid rgb(0, 0, 27);
+    border-left: 2px inset aqua;
+    border-bottom: 1px inset aqua;
+    background-color: rgb(0, 0, 27);
+    color: coral;
+    margin: 4% 21% 2%;
+    width: 55%;
+    height: 25px;
+}
+.form2{
+    border-top: 1px solid rgb(0, 0, 27);
+    border-right: 1px solid rgb(0, 0, 27);
+    border-left: 2px inset aqua;
+    border-bottom: 1px inset aqua;
+    background-color: rgb(0, 0, 27);
+    color: coral;
+    margin: 3% 21% 2%;
+    width: 55%;
+    height: 25px;
+}
+#form22{
+    width: 10%;
+}
+.form3{
+    border-top: 1px solid rgb(0, 0, 27);
+    border-right: 1px solid rgb(0, 0, 27);
+    border-left: 2px inset aqua;
+    border-bottom: 1px inset aqua;
+    background-color: rgb(0, 0, 27);
+    color: aqua;
+    cursor: pointer;
+    margin: 3% 3% 2%;
+}
+.radio{
+    padding: 0% 19%;
+    color: aqua;
+}
+.form4{
+    border-top: 1px solid rgb(0, 0, 27);
+    border-right: 1px solid rgb(0, 0, 27);
+    border-left: 2px inset aqua;
+    border-bottom: 1px inset aqua;
+    background-color: rgb(0, 0, 27);
+    color: aqua;
+    box-sizing: border-box;
+    margin: 5% 21% 2%;
+    width: 55%;
+    height: 25px;
+    letter-spacing: 1px;
+}
